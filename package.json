@@ -1,0 +1,31 @@
+{
+	"name": "property-names",
+	"version": "1.0.0",
+	"description": "Get all property names of an object including those in the prototype chain",
+	"main": "index.js",
+	"keywords": [
+		"getAllPropertyNames",
+		"object",
+		"keys",
+		"properties",
+		"property"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/tjconcept/js-property-names.git"
+	},
+	"author": {
+		"name": "Thomas Jensen",
+		"email": "thomas@tjconcept.dk",
+		"url": "http://tjconcept.dk"
+	},
+	"devDependencies": {
+		"tap": "~0.4.8",
+		"intersect": "~0.1.0"
+	},
+	"scripts": {
+		"test": "./node_modules/.bin/tap test.js"
+	},
+	"readmeFilename": "README.md",
+	"license": "MIT"
+}
